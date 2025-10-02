@@ -38,6 +38,10 @@ public class Combo implements Consumible{
     public Double costoConsumible(){
         return consumibles.stream().mapToDouble(c -> c.costo()).sum();
     }
+
+    public String getNombre() {
+        return nombre;
+    }
     
     
     
